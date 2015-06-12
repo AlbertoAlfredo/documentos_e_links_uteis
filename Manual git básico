@@ -1,0 +1,33 @@
+Manual básico Para usar o git/github no linux
+
+Configure o Username
+
+- git config --global user.name "username" in terminal
+
+Configure o e-mail
+
+- git config --global user.email "yourmail@mail.com"
+
+Instale o “ssh-server”
+
+$sudo apt-get install openssh-server
+
+Depois do registro no computador que está usando basicamente use:
+
+git clone "url de qualquer projeto do github" 
+
+modifique algo e tente:
+
+git add file # para adicionar um arquivo ou git add. (Ponto) para adicionar todos os arquivos de uma pasta. Se não funcionar tente git add * para adicionar todos os arquivos
+
+git status # para checar o estatus das modificações
+
+git commit -m "comment" # Cheque a pagina do github e veja -m
+
+git push (Vai pedir seu usuário e senha do github) e envia as modificaçoes todas para o github.
+
+git push origin master usa se você é o “master” do repositório
+
+git rm -r <nome do arquivo ou pasta> remove o arquivo ou pasta selecionada
+
+git add --a * para enviar as modificações após ter apagado algum arquivo ou pasta
